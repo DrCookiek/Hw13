@@ -2,17 +2,17 @@ import { NewCar } from "./newCar.js";
 import { Cars } from "./cars.js";
 import { OldCar } from "./oldCar.js";
 
-let myFord = new OldCar("Ford", "Escort", "Blue", "5 Doors");
+let mySeat = new OldCar("Seat", "Ibiza", "White", "3 Doors");
 // myFord.printSpecs();
 
 console.log("");
 
-let myTesla = new NewCar("Tesla", "3", "White", "4 Doors", "JBL");
+let myCupra = new NewCar("Cupra", "Leon", "Black", "5 Doors", "BeatsAudio");
 // myTesla.printSpecs();
 
 let allMyCars = new Cars();
-allMyCars.addCar(myFord);
-allMyCars.addCar(myTesla);
+allMyCars.addCar(mySeat);
+allMyCars.addCar(myCupra);
 
 console.log(allMyCars.cars);
 

@@ -3,7 +3,7 @@ import { OldCar } from "./oldCar.js";
 export class NewCar extends OldCar {
   constructor(manufacturer, model, color, size, soundSystem) {
     super(manufacturer, model, color, size);
-    this.engine = "Electric";
+    this.engine = "Gasoline";
     this.soundSystem = soundSystem;
   }
   printSpecs() {
